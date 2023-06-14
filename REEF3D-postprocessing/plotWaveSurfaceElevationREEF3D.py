@@ -16,10 +16,10 @@ n_header = n_gauge + 7
 
 model = 'FNPF' # choose between 'CFD', 'FNPF', 'SFLOW' and 'NHFLOW', check updates at https://github.com/REEF3D or https://reef3d.com/
 
-fsf_t = np.loadtxt('./REEF3D_'+model+'_WSF/REEF3D-'+model+'-WSF-HG.dat', skiprows=n_header)
+fsf_t = np.loadtxt('./data/REEF3D_'+model+'_WSF/REEF3D-'+model+'-WSF-HG.dat', skiprows=n_header)
 
 # if you have defined a theoretical wave gauge using P 50 in ctrl.txt for REEF3D
-fsf_t_t = np.loadtxt('./REEF3D_'+model+'_WSF/REEF3D-'+model+'-WSF-HG-THEORY.dat', skiprows=n_header)
+fsf_t_t = np.loadtxt('./data/REEF3D_'+model+'_WSF/REEF3D-'+model+'-WSF-HG-THEORY.dat', skiprows=n_header)
 
 # %% plot the simulated wave surface elevation time series against the theoretical values at a given wave gauge and save them as png and eps figures
 
@@ -31,6 +31,6 @@ plt.xlabel('t (s)')
 plt.ylabel('$\eta$ (m)')
 plt.legend(["REEF3D", "theory"])
 plt.grid(True, linestyle='--', linewidth=0.5)
-plt.savefig('./fsf_t_'+model+'.png', format='png', dpi=1000, bbox_inches='tight')
-plt.savefig('./fsf_t_'+model+'.eps', format='eps', bbox_inches='tight')
+plt.savefig('./data/wave_surface_elevation_'+model+'.png', format='png', dpi=1000, bbox_inches='tight')
+plt.savefig('./data/wave_surface_elevation_'+model+'.eps', format='eps', bbox_inches='tight')
 plt.show()
