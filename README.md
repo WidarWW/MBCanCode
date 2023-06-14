@@ -5,7 +5,7 @@ This is an open-source initiative from the MB research group to share our knowle
 
 All codes are under GNU v3 open-source license AND free to use and for further developments.
 
-You can use these as stand-alone programs or together with our teaching (https://www.ntnu.edu/ibm/marine-civil-engineering) and other software developed within the group, such as REEF3D (https://reef3d.wordpress.com/) and SAMS (https://arciso.com/sams/). 
+You can use these as stand-alone programs or together with our teaching (https://www.ntnu.edu/ibm/marine-civil-engineering) and other software developed within the group, such as REEF3D (https://reef3d.com/) and SAMS (https://arciso.com/sams/). 
 
 
 
