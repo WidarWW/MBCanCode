@@ -1,4 +1,4 @@
-# IBMcanCode https://github.com/WidarWW/MBCanCode
+# IBMcanCode (https://github.com/WidarWW/MBCanCode)
 # Since 2023
 # Developed by REEF3D Team (www.reef3d.com)
 # Marine Civil Engineering Group (https://www.ntnu.edu/ibm/marine-civil-engineering)
