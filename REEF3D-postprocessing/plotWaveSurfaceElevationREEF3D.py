@@ -1,10 +1,13 @@
 # IBMcanCode https://github.com/WidarWW/MBCanCode
 # Since 2023
-# Developed by REEF3D Team
-# Marine Civil Engineering Group
+# Developed by REEF3D Team (www.reef3d.com)
+# Marine Civil Engineering Group (https://www.ntnu.edu/ibm/marine-civil-engineering)
 # Department of Civil and Environmental Engineering 
 # Norwegian University of Science and Technology 
 # Trondheim, Norway 
+###################################################################################################
+# the purpose of this code is to plot wave surface elevation time series from REEF3D simulations
+###################################################################################################
 
 import numpy as np
 import matplotlib.pyplot as plt
