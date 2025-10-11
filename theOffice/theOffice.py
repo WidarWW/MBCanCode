@@ -17,14 +17,14 @@ if leaving_office and dishwasher_running:
     if not washed_manually:
         print("""
 😬 You didn’t wash the dishes manually:
-as a result:
-- The following image will be the first scene in the morning as work 
+- The following image will be the first scene in the morning at work 
 - Leftover food fermenting over Night or over the Whole Weekend
 - Leftover food Dry up on the dish making them Harder to clean
 - The first people in the morning / Monday have to empty the dishwasher and 
 - touch the fermented remains before putting them in the dishwasher
 😊 Remember to wash the dishes next time and 
-make a fresh impression for the next morning'
+                               make a fresh impression for the next morning'
+
 """)
 
 # 👇 Show an image of the consequences
