@@ -28,7 +28,7 @@ if leaving_office and dishwasher_running:
 """)
 
 # 👇 Show an image of the consequences
-img = mpimg.imread("./theOffice.jpeg")  # put your own file here
+img = mpimg.imread("./theOffice.jpeg")
 plt.imshow(img)
 plt.axis("off")
 plt.title("Monday Morning Surprise!")
