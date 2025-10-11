@@ -1,7 +1,8 @@
 ##############################################################################
 # Decree by NTNU/IBM/MB High Council on behalf of Lord Science               #
-# Try running this python code, it actually works ;)                         #
+# https://github.com/WidarWW/MBCanCode.git                                   #
 ##############################################################################
+
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
@@ -13,7 +14,7 @@ if leaving_office and dishwasher_running:
     print("⚠️  Dishwasher is still running!")
     print("Please use the brush and detergent to wash the dishes manually.")
 
-    if washed_manually:
+    if not washed_manually:
         print("""
 😬 You didn’t wash the dishes manually:
 as a result:
